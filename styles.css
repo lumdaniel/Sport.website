@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1;
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    position:static ;
+    background: linear-gradient(to right,#00bcf2,#00b294);
+    background: linear-gradient(to right,#00bcf2,#00b294);
+
+
+   
+}
+
+/* Header Section */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+       margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+/* Navigation Bar */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Centers the navigation links */
+    align-items: center;
+    flex-wrap: nowrap; /* Ensures the navigation stays in one line */
+}
+
+header nav ul li {
+    margin: 0 15px; /* Horizontal spacing between links */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 15px; /* Adds padding for better clickability */
+}
+
+header nav ul li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Optional hover background */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+/* Responsive Navigation Bar for Mobile */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column; /* Stacks links vertically on smaller screens */
+        align-items: flex-start; /* Aligns links to the left */
+        padding: 10px; /* Adds spacing around the navigation */
+    }
+
+    header nav ul li {
+        margin: 10px 0; /* Adds vertical spacing between links */
+    }
+
+    header nav ul li a {
+        font-size: 1em; /* Adjusts font size for smaller screens */
+        width: 100%; /* Ensures links span full width */
+        text-align: left; /* Aligns text to the left */
+    }
+}
+/* Hero Section with Background Image */
+#hero-section {
+    background-image: url('images/background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero-section p {
+    font-size: 1.5em;
+}
+
+/* Sport Section Styling */
+main section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+main section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+main section p {
+    font-size: 1.2em;
+}
+
+/*----- course -----*/
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+
+h1{
+    font-size: 36px;
+    font-weight: 600px;
+   
+     
+}
+
+h2{
+    color:#777;
+}
+
+
+p{
+    color:hsl(0, 0%, 48%);
+    font-size: px;
+     font-weight: 300;
+     line-height: 22px;
+     padding:10px;
+
+
+}
+   
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+     background: #000000;
+     border-radius: 10px;
+     margin-bottom: 5%;
+     padding: 20px 12px;
+     box-sizing: border-box;    
+}
+
+
+
+.video{
+
+    text-align: center;
+    padding: 50px;
+}
+
+
+.tennis{
+    margin: 100px auto;
+    width: 75%;
+
+}
+.tennis img{
+    max-width: 500px;
+    float: left;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin-right: 10px;
+    margin-top: -50px;
+    margin-left: -100px;
+    margin-right: 50px;
+    
+}
+
+.text h1{
+    font-size: 50px;
+    padding:5px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: fantasy;
+    
+}
+
+.tennis p{
+    margin-right: 100px;
+    color: black;
+    font-family: serif ;
+    text-align: justify;
+    
+  
+}
+
+.tennis2 img{ max-width: 500px;
+    float:right;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin-right: -100px;
+    margin-top: -10px;
+    text-align: end;
+    margin-left: 60px;
+    margin-bottom: -5px;
+
+    
+}
+
+.tennis2 p{
+    color: black;
+    font-family:serif ;
+    text-align:justify;  
+    font-size: 20px;
+    padding: 50px;
+}
+
+.tennis2{
+    margin: 100px auto;
+    width: 75%;}
+
+.tennis3{
+    margin: 100px auto;
+    width: 75%;}
+   
+
+
+.tennis3 img{
+    max-width: 500px;
+    float: left;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: -100px;
+    
+    
+ 
+}
+.tennis3 p{
+       color: black;
+    font-family: serif ;
+        font-size: 20px;
+        text-align: justify;
+      
+}
+
+
+.tennishis{
+    margin: 100px auto;
+    width: 75%;}
+
+
+.tennishis img{
+    max-width: 500px;
+    float:right;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin-right: -100px;
+    margin-top: -20px;
+    margin-left: 50px;
+    
+}
+
+
+.tennistext p{
+    margin-right: 10px;
+    color: black;
+    font-family: serif ;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+
+.h11 h1{
+
+    text-align: center;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.course-col li{
+
+text-align: justify;
+margin-left: 70px;
+}
